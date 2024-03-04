@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name Alpha",
-    "stop": "pm2 stop Alpha"
+    "stop": "pm2 stop Alpha",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cipher",
