@@ -71,12 +71,10 @@ app.get('/retrieve/:pasteId', async (req, res) => {
         const response = await axios.get(`https://paste.c-net.org/${internalPasteId}`);
         
         console.log('Retrieved paste:', response.data);
-
-        const decryptedText = decrypt(response.data);
         const result = {
             author: 'cipher',
             id: userPasteId,
-            content: decryptedText
+            content: response.data
         };
 
         res.status(200).json(result);
