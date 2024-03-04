@@ -89,3 +89,8 @@ app.get('/retrieve/:pasteId', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
+
+
+/*{ usage : 
+getpaste: /retrieve/PASTE_ID?apikey=admin
+paste:  /paste?content=YourContent&apikey=admin  }*/
