@@ -10,7 +10,7 @@ const port = 3079;
 
 const secretKey = 'alpha';
 const apiKey = 'admin';
-const mongoUrl = 'mongodb://localhost:27017'; // Update with your MongoDB connection string
+const mongoUrl = 'mongodb+srv://uploader2:uploader2@uploader2.uhnmx1u.mongodb.net/?retryWrites=true&w=majority&appName=uploader2';
 const dbName = 'pasteDB';
 const collectionName = 'pastes';
 
